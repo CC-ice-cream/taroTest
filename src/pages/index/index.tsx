@@ -10,7 +10,9 @@ export default class Index extends Component<PropsWithChildren> {
     console.log("componentDidMount")
   }
 
-  componentWillUnmount () { }
+  componentWillUnmount () { 
+    console.log("componentWillUnmount")
+  }
 
   componentDidShow () { }
 
