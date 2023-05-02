@@ -7,15 +7,23 @@ import './index.scss'
 
 export default class Index extends Component<PropsWithChildren> {
   componentDidMount () { 
-    console.log("componentDidMount")
+    console.log("ferature")
   }
 
   componentWillUnmount () { 
+<<<<<<< HEAD
     
   }
 
   componentDidShow () { 
     
+=======
+    console.log("ferature")
+  }
+
+  componentDidShow () { 
+    console.log("ferature")
+>>>>>>> feature
   }
 
   componentDidHide () { }
