@@ -8,6 +8,7 @@ import './index.scss'
 export default class Index extends Component<PropsWithChildren> {
   componentDidMount () { 
     console.log("master stash")
+    console.log("第一次修改")
   }
 
   componentWillUnmount () { 
