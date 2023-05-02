@@ -11,11 +11,11 @@ export default class Index extends Component<PropsWithChildren> {
   }
 
   componentWillUnmount () { 
-    console.log("componentWillUnmount")
+    
   }
 
   componentDidShow () { 
-    console.log("componentDidShow")
+    
   }
 
   componentDidHide () { }
