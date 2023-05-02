@@ -11,19 +11,11 @@ export default class Index extends Component<PropsWithChildren> {
   }
 
   componentWillUnmount () { 
-<<<<<<< HEAD
-    
-  }
-
-  componentDidShow () { 
-    
-=======
     console.log("ferature")
   }
 
   componentDidShow () { 
     console.log("ferature")
->>>>>>> feature
   }
 
   componentDidHide () { }
