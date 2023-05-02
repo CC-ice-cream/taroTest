@@ -11,11 +11,7 @@ export default class Index extends Component<PropsWithChildren> {
   }
 
   componentWillUnmount () { 
-<<<<<<< Updated upstream
-    console.log("master stash 2")
-=======
     console.log("master")
->>>>>>> Stashed changes
   }
 
   componentDidShow () { 
