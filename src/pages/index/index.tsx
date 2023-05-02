@@ -7,7 +7,7 @@ import './index.scss'
 
 export default class Index extends Component<PropsWithChildren> {
   componentDidMount () { 
-    console.log("master")
+    console.log("master stash")
   }
 
   componentWillUnmount () { 
